@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pastel Pixelette</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pastel Pixelette</h1>
+
+    <h2>Grid Size?</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="10" max="100" value="10">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="10" max="100" value="10">
+        <input type="submit">
+    </form>
+
+    <h2>Color?</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Now Slay</h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
